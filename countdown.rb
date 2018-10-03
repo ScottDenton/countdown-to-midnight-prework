@@ -8,10 +8,10 @@ def countdown (num)
   "HAPPY NEW YEAR!"
 end
 
-def countdown_with_sleep(num, rest)
+def countdown_with_sleep(num)
   while num > 0 do
-    sleep #{rest}
     puts "#{num} SECOND(S)!"
+    sleep(1)
     num -=1 
   end
   
